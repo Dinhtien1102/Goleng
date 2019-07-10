@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2299 623">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.244" y1="0.065" x2="0.732" y2="0.849" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#008ae6"/>
+      <stop offset="1" stop-color="#003fbc"/>
+      <stop offset="1" stop-color="#004777"/>
+      <stop offset="1" stop-color="#004573"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(-185 -88)">
+    <g id="Group_2" data-name="Group 2" transform="translate(-328 37)">
+      <g id="Group_1" data-name="Group 1">
+        <path id="Union_1" data-name="Union 1" d="M153.882,480.855C63.523,443.186,0,354.008,0,250,0,111.929,111.929,0,250,0S500,111.929,500,250,388.071,500,250,500a251.686,251.686,0,0,1-42.113-3.532l-78.679,56.043Z" transform="translate(513 121)" fill="url(#linear-gradient)"/>
+        <path id="Path_1" data-name="Path 1" d="M537.081,507.142l59.563-295.6L799.626,522,486.923,339.79,849,248.293Z" transform="translate(95 8)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <text id="Goleng" transform="translate(1083 541)" fill="#003fbc" font-size="573" font-family="TwCenMT-Bold, Tw Cen MT" font-weight="700"><tspan x="0" y="0">Goleng</tspan></text>
+    </g>
+  </g>
+</svg>
