@@ -3,46 +3,37 @@
     <head>
         <title>Goleng</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="Goleng_CSS.css"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Goleng_CSS.css"> 
     </head>
     <body>
         <header>
             <div class="main_head">
                 <div class= "left_head">
-                    <svg class = "logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2299 623">
-                        <defs>
-                            <linearGradient id="linear-gradient" x1="0.244" y1="0.065" x2="0.732" y2="0.849" gradientUnits="objectBoundingBox">
-                            <stop offset="0" stop-color="#008ae6"/>
-                            <stop offset="1" stop-color="#003fbc"/>
-                            <stop offset="1" stop-color="#004777"/>
-                            <stop offset="1" stop-color="#004573"/>
-                            </linearGradient>
-                            <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-                            <stop offset="0" stop-color="#fff"/>
-                            <stop offset="1" stop-color="#fff"/>
-                            </linearGradient>
-                        </defs>
-                        <g id="Group_3" data-name="Group 3" transform="translate(-185 -88)">
-                            <g id="Group_2" data-name="Group 2" transform="translate(-328 37)">
-                            <g id="Group_1" data-name="Group 1">
-                                <path id="Union_1" data-name="Union 1" d="M153.882,480.855C63.523,443.186,0,354.008,0,250,0,111.929,111.929,0,250,0S500,111.929,500,250,388.071,500,250,500a251.686,251.686,0,0,1-42.113-3.532l-78.679,56.043Z" transform="translate(513 121)" fill="url(#linear-gradient)"/>
-                                <path id="Path_1" data-name="Path 1" d="M537.081,507.142l59.563-295.6L799.626,522,486.923,339.79,849,248.293Z" transform="translate(95 8)" fill="url(#linear-gradient-2)"/>
+                    <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2349 623">
+                        <g id="Group_3" data-name="Group 3" transform="translate(197 -165)">
+                          <g id="Group_2" data-name="Group 2">
+                            <g id="Group_1" data-name="Group 1" transform="translate(-590 99)">
+                              <g id="Group_1-2" data-name="Group 1" transform="translate(-120 -20)">
+                                <path id="Union_1" data-name="Union 1" d="M153.882,480.855C63.523,443.186,0,354.008,0,250,0,111.929,111.929,0,250,0S500,111.929,500,250,388.071,500,250,500a251.686,251.686,0,0,1-42.113-3.532l-78.679,56.043Z" transform="translate(513 121)" fill="#fff"/>
+                                <path id="Path_1" data-name="Path 1" d="M537.081,507.142l59.563-295.6L799.626,522,486.923,339.79,849,248.293Z" transform="translate(95 8)" fill="#343a40"/>
+                              </g>
+                              <text id="Goleng" transform="translate(1013 556)" fill="#fff" font-size="573" font-family="TwCenMT-Bold, Tw Cen MT" font-weight="700"><tspan x="0" y="0">Goleng</tspan></text>
                             </g>
-                            <text id="Goleng" transform="translate(1083 541)" fill="#003fbc" font-size="573" font-family="TwCenMT-Bold, Tw Cen MT" font-weight="700"><tspan x="0" y="0">Goleng</tspan></text>
-                            </g>
+                          </g>
                         </g>
-                    </svg>    
+                      </svg>
+                       
                     <ul class= "menu_head">                       
                         <li><a href="">Contact Us</a></li>
                         <li><a href="">About</a></li>   
                         <li><a href="">Login</a></li>
-                        <li class ="shop"><a href="">Shop</a></li>              
+                        <li class ="shop"><a href="./Goleng_HTML.html">Shop</a></li>              
                     </ul> 
                 </div>      
-                <form class="search" action="">
+                <div class="search">
                 <input type="text" placeholder="Search.." name="search">
-                <button type="submit"><img class="icon_search" /></button>
-                </form>
+            </div>
             </div>    
         </header>
 
@@ -51,10 +42,10 @@
                 <h1 class="title_banner">Tips, Tricks & More</h1>
                 <p class="note_banner">Tips and tools for beginners and experts alike.</p>
             </div>
-            <div class="main_menu">
+            <div class="main_menu" id= "main_menu">
                 <ul class="menu_content">
                     <li class="parent_menu">
-                        <a href=""> Phát Âm</a>
+                        <a href="#footer"> Phát Âm</a>
                             <ul class="sub_menu">
                                 <li><a href="">Bảng Phiên Âm</a></li>
                                 <li><a href="">Trọng Âm</a></li>
@@ -129,20 +120,60 @@
 
         <div class="content">
             <div class="left_content">
+                <ul class="list_content">
+                    <li><a href="#main_menu" id="footer">D/S Bảng Phiên Âm</a></li>
+                    <li><a href="">Danh Sách Ngữ Pháp</a></li>
+                    <li><a href="">D/S Hiện Tại Đơn</a></li>
+                    <li><a href="">D/S Đề Thi THPT</a></li>
+                    <li><a href="">D/S Danh Từ</a></li>
+                </ul>
+            </div>
+            
+            <div class="main_content">
+                <p>
+                    Ngữ pháp hay văn phạm là quy tắc chủ yếu trong cấu trúc ngôn ngữ. Việc tạo ra các quy tắc chính cho một ngôn ngữ riêng biệt là ngữ pháp của ngôn ngữ đó, vì vậy mỗi ngôn ngữ có một ngữ pháp riêng biệt của nó. Ngữ pháp là một phần trong nghiên cứu ngôn ngữ hay còn gọi là ngôn ngữ học. Ngữ pháp là một cách thức để hiểu về ngôn ngữ. mặt khác, ngữ pháp còn là một công cụ để quản lý từ ngữ, làm cho từ ngữ từ một từ hay nhiều từ thành một câu đúng ý nghĩa và thực sự hữu ích.
+
+                    Ngữ pháp, theo cách hiểu của hầu hết các nhà ngôn ngữ học hiện đại bao gồm ngữ âm, âm học, hình thái ngôn ngữ, cú pháp, ngữ nghĩa. Tuy nhiên, theo truyền thống, ngữ pháp chỉ bao gồm hình thái ngôn ngữ và cú pháp.Câu 1: - Danh từ: lần, lăng, làng - Động từ: đọc, nghĩ ngợi, phục dịch, đập - Tính từ: hay, đột ngột, phải, sung sướng
+                    
+                    
+                    Câu 2: - Các từ nhóm (a) là các từ chỉ lượng, nó có thể kết hợp với các danh từ: những lần, những làng,... - Các từ nhóm (b) là các phó từ có thể kết hợp với các động từ: hãy đọc, hãy đập,... - Các từ nhóm (c) là các phó từ có thể kết hợp với các tính từ: rất hay, rất đột ngột,...
+                    
+                    
+                    Câu 3: - Danh từ có thể đứng sau: những, các, một,... - Động từ có thể đứng sau: hãy, đã, vừa,... - Tính từ có thể đứng sau: rất, hơi, quá,...
+                    Ngữ pháp hay văn phạm là quy tắc chủ yếu trong cấu trúc ngôn ngữ. Việc tạo ra các quy tắc chính cho một ngôn ngữ riêng biệt là ngữ pháp của ngôn ngữ đó, vì vậy mỗi ngôn ngữ có một ngữ pháp riêng biệt của nó. Ngữ pháp là một phần trong nghiên cứu ngôn ngữ hay còn gọi là ngôn ngữ học. Ngữ pháp là một cách thức để hiểu về ngôn ngữ. mặt khác, ngữ pháp còn là một công cụ để quản lý từ ngữ, làm cho từ ngữ từ một từ hay nhiều từ thành một câu đúng ý nghĩa và thực sự hữu ích.
+
+                    Ngữ pháp, theo cách hiểu của hầu hết các nhà ngôn ngữ học hiện đại bao gồm ngữ âm, âm học, hình thái ngôn ngữ, cú pháp, ngữ nghĩa. Tuy nhiên, theo truyền thống, ngữ pháp chỉ bao gồm hình thái ngôn ngữ và cú pháp.Câu 1: - Danh từ: lần, lăng, làng - Động từ: đọc, nghĩ ngợi, phục dịch, đập - Tính từ: hay, đột ngột, phải, sung sướng
+                    
+                    
+                    Câu 2: - Các từ nhóm (a) là các từ chỉ lượng, nó có thể kết hợp với các danh từ: những lần, những làng,... - Các từ nhóm (b) là các phó từ có thể kết hợp với các động từ: hãy đọc, hãy đập,... - Các từ nhóm (c) là các phó từ có thể kết hợp với các tính từ: rất hay, rất đột ngột,...
+                    
+                    
+                    Câu 3: - Danh từ có thể đứng sau: những, các, một,... - Động từ có thể đứng sau: hãy, đã, vừa,... - Tính từ có thể đứng sau: rất, hơi, quá,...
+                    Ngữ pháp hay văn phạm là quy tắc chủ yếu trong cấu trúc ngôn ngữ. Việc tạo ra các quy tắc chính cho một ngôn ngữ riêng biệt là ngữ pháp của ngôn ngữ đó, vì vậy mỗi ngôn ngữ có một ngữ pháp riêng biệt của nó. Ngữ pháp là một phần trong nghiên cứu ngôn ngữ hay còn gọi là ngôn ngữ học. Ngữ pháp là một cách thức để hiểu về ngôn ngữ. mặt khác, ngữ pháp còn là một công cụ để quản lý từ ngữ, làm cho từ ngữ từ một từ hay nhiều từ thành một câu đúng ý nghĩa và thực sự hữu ích.
+
+                    Ngữ pháp, theo cách hiểu của hầu hết các nhà ngôn ngữ học hiện đại bao gồm ngữ âm, âm học, hình thái ngôn ngữ, cú pháp, ngữ nghĩa. Tuy nhiên, theo truyền thống, ngữ pháp chỉ bao gồm hình thái ngôn ngữ và cú pháp.Câu 1: - Danh từ: lần, lăng, làng - Động từ: đọc, nghĩ ngợi, phục dịch, đập - Tính từ: hay, đột ngột, phải, sung sướng
+   
+                </p>
 
             </div>
 
-
-            <div class="main_content">noidung
-
-            </div>
-
-            <div class="right_content">Bảng Xếp hạng
+            <div class="right_content">
+                <ul class="list_content">
+                    <li><a href="">Mục Lục  Danh Từ </a></li>
+                    <li><a href="">Mục LụcHiên Tại Đơn </a></li>
+                    <li><a href="">Mục Lục Thi THPT</a></li>
+                    <li><a href="">Mục Lục Chuyện Song Ngữ</a></li>
+                    <li><a href="">Mục Lục 2500 Từ Vựng</a></li>
+                </ul>
 
             </div>
         </div>
         
-        <footer>footer</footer>
-
+        <footer>
+            <a href=""><img src="img/fb-logo.png"></a>
+            <a href=""><img src="img/Linkedin_logo.png"></a>
+            <a href="https://www.facebook.com/sharer.php"><img src="img/youtube_logo.png"></a>
+        </footer>
+<!-- Thực RA cHỈ cẦN mỤC lỤC lÀ đỦ rỒi -->
     </body>
 </html>
