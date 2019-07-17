@@ -31,14 +31,15 @@
                         <li class ="shop"><a href="./Goleng_HTML.html">Shop</a></li>              
                     </ul> 
                 </div>      
-                <div class="search">
-                <input type="text" placeholder="Search.." name="search">
-            </div>
+                <form class="search">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit">Search</button>
+                </form>
             </div>    
         </header>
 
         <section class="banner">
-            <div class=" banner_content">
+            <div id="banner_content">
                 <h1 class="title_banner">Tips, Tricks & More</h1>
                 <p class="note_banner">Tips and tools for beginners and experts alike.</p>
             </div>
@@ -47,14 +48,14 @@
                     <li class="parent_menu">
                         <a href="#footer"> Phát Âm</a>
                             <ul class="sub_menu">
-                                <li><a href="">Bảng Phiên Âm</a></li>
-                                <li><a href="">Trọng Âm</a></li>
-                                <li><a href="">Ngữ Điệu</a></li>
-                                <li><a href="">Âm Cuối</a></li>
-                                <li><a href="">Nối Âm</a></li>
-                                <li><a href="">Giảm Âm</a></li>
-                                <li><a href="">Đánh Vần</a></li>
-                                <li><a href="">Luyện Đọc & Phát Âm</a></li>
+                                <li><a onclick = "content(a,b,c,d)">Bảng Phiên Âm</a></li>
+                                <li onclick="tuan(bai1)"><a>Trọng Âm</a></li>
+                                <li onclick="tuan(bai2)"><a>Ngữ Điệu</a></li>
+                                <li onclick="tuan(bai3)"><a>Âm Cuối</a></li>
+                                <li><a>Nối Âm</a></li>
+                                <li><a>Giảm Âm</a></li>
+                                <li><a>Đánh Vần</a></li>
+                                <li><a>Luyện Đọc & Phát Âm</a></li>
                             </ul>                     
                     </li>
                     
@@ -71,15 +72,12 @@
                     <li class="parent_menu">
                         <a href="">Từ Loại</a>
                             <ul class="sub_menu">
-                                <li><a href="">Danh Từ</a></li>
-                                <li><a href="">Đại Từ</a></li>
-                                <li><a href="">Tính Từ</a></li>
-                                <li><a href="">Trạng Từ</a></li>
-                                <li><a href="">Mạo Từ</a></li>
-                                <li><a href="">Động Từ</a></li>
-                                <li><a href="">Giới Từ</a></li>
-                                <li><a href="">Liên Từ</a></li>
-                                <li><a href="">Thán Từ</a></li>
+                                <li><a href="">Danh Từ_N</a></li>
+                                <li><a href="">Động Từ_V</a></li>
+                                <li><a href="">Tính Từ_ADJ</a></li>
+                                <li><a href="">Trạng Từ_ADV</a></li>
+                                <li><a href="">Tiền Tố & Hậu Tố</a></li>
+                                <li><a href="">Bài Tập</a></li>    
                             </ul>
                     </li>   
                     <li class="parent_menu">
@@ -112,24 +110,27 @@
                         <a href="">Video</a>                      
                     </li>
                     <li class="parent_menu">
-                        <a href="">Tips, Tricks & More</a>                      
+                        <a href="">Mẹo Học & Cách Học </a>                      
+                    </li>
+                    <li class="parent_menu">
+                        <a href="">Blog</a>                      
                     </li>
                 </ul>
             </div>
         </section>
 
         <div class="content">
-            <div class="left_content">
+            <div id="left_content">
                 <ul class="list_content">
-                    <li><a href="#main_menu" id="footer">D/S Bảng Phiên Âm</a></li>
-                    <li><a href="">Danh Sách Ngữ Pháp</a></li>
+                    <li><a href="">D/S Bảng Phiên Âm</a></li>
+                    <li><a onclick="bai1()">Danh Sách Ngữ Pháp</a></li>
                     <li><a href="">D/S Hiện Tại Đơn</a></li>
                     <li><a href="">D/S Đề Thi THPT</a></li>
                     <li><a href="">D/S Danh Từ</a></li>
                 </ul>
             </div>
             
-            <div class="main_content">
+            <div id="main_content" class="main_content">
                 <p>
                     Ngữ pháp hay văn phạm là quy tắc chủ yếu trong cấu trúc ngôn ngữ. Việc tạo ra các quy tắc chính cho một ngôn ngữ riêng biệt là ngữ pháp của ngôn ngữ đó, vì vậy mỗi ngôn ngữ có một ngữ pháp riêng biệt của nó. Ngữ pháp là một phần trong nghiên cứu ngôn ngữ hay còn gọi là ngôn ngữ học. Ngữ pháp là một cách thức để hiểu về ngôn ngữ. mặt khác, ngữ pháp còn là một công cụ để quản lý từ ngữ, làm cho từ ngữ từ một từ hay nhiều từ thành một câu đúng ý nghĩa và thực sự hữu ích.
 
@@ -157,7 +158,7 @@
 
             </div>
 
-            <div class="right_content">
+            <div id="right_content">
                 <ul class="list_content">
                     <li><a href="">Mục Lục  Danh Từ </a></li>
                     <li><a href="">Mục LụcHiên Tại Đơn </a></li>
@@ -173,7 +174,12 @@
             <a href=""><img src="img/fb-logo.png"></a>
             <a href=""><img src="img/Linkedin_logo.png"></a>
             <a href="https://www.facebook.com/sharer.php"><img src="img/youtube_logo.png"></a>
+            <a href="" id="helo"></a>
+            <a href="" id="concac"></a>
+            <p id="vd3"></p>
         </footer>
 <!-- Thực RA cHỈ cẦN mỤC lỤC lÀ đỦ rỒi -->
     </body>
+    <script src="data.js"></script>
+    <script src="Goleng_JS.js"></script>
 </html>
