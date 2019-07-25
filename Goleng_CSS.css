@@ -179,7 +179,7 @@ form.search button img {
 }
 .content {
     max-width: 1200px;
-    min-height: 100vh;
+    min-height: 85vh;
     margin: auto;
     display: flex;
     padding: 25px 0 25px;
@@ -245,6 +245,3 @@ footer img {
     font-weight: bold;
 }
 
-.content_footer span,p {
-    color: #333;
-}
