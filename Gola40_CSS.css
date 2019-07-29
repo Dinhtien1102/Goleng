@@ -40,7 +40,8 @@ header {
     margin: auto;
 }
 .logo {
-    height: 34px;
+    height: 30px;
+    margin-top: 2px;
     float: left;
 }
 .left_head {
@@ -188,7 +189,7 @@ form.search button img {
     float: left;
     width: max-content;
 }
-.right_content {
+#right_content {
     float: right;
     width: max-content;
 }
@@ -202,6 +203,7 @@ form.search button img {
 #main_content p {
     margin: 0;
 }
+
 .list_content a {
     padding: 4px 10px 4px;
     margin-bottom: 4px;
@@ -209,7 +211,6 @@ form.search button img {
     float: left;
     color: #333;
     border-radius: 5px;
-    cursor: pointer;
 }
 .list_content a:hover {
     background: rgb(155, 217, 253);
@@ -226,9 +227,6 @@ footer {
 .content_footer {
     max-width: 1190px;
     margin: 20px auto 0;
-}
-footer img {
-    width: 32px;
 }
 .content_footer li {
     display: inline-block;

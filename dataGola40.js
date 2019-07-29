@@ -2,8 +2,8 @@ var noidung = {
     post_0: {
         title_banner: "000000aaaaaaaaaaaaaaa",
         note_banner: "0000000bbbbbbbbbbbbbbbbbb",
-        list_left: "cccccccccccccccccccc",
-        main_content: "00000000000ddddddddddddddddddd",
+        list_left: "<div class='list_content'><ul class='list_content'><li><a href=''>D/S Bảng Phiên Âm</a></li> <li><a href=''>Danh Sách Ngữ Pháp</a></li><li><a href=''>D/S Hiện Tại Đơn</a></li></ul></div>",
+        main_content: "<h1>A guide to apps and the App</h1> Directorydfgdfggggggggggggggggggggggggggggggggggggggggggggg<hr>ggggggggggggggggggggggggggggggggggggggggggdgfjngdhdfhgdfgfdgdfgdfgdfg",
         list_right:  "000000000000000eeeeeeeeeeeeeeeeeeeeee"
     },
     post_1: {
