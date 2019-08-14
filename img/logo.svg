@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="215" height="215" viewBox="0 0 215 215">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc40a"/>
+      <stop offset="1" stop-color="#ff004e"/>
+      <stop offset="1" stop-color="#806205"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect width="53.87" height="29.295" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_5" data-name="Group 5" transform="translate(-272 -348)">
+    <g id="Group_3" data-name="Group 3">
+      <g id="Group_4" data-name="Group 4">
+        <rect id="Rectangle_1" data-name="Rectangle 1" width="215" height="215" rx="23" transform="translate(272 348)" fill="#202020"/>
+        <g id="Group_2" data-name="Group 2" transform="matrix(0.996, -0.087, 0.087, 0.996, 78.32, -29.528)">
+          <circle id="Ellipse_1" data-name="Ellipse 1" cx="76" cy="76" r="76" transform="translate(181 425)" fill="url(#linear-gradient)"/>
+          <path id="Path_1" data-name="Path 1" d="M329.847,468.366l-72.678,50.068,76.529,7.283s9.145-38.689-3.85-57.351" transform="translate(0 4)" fill="#202020"/>
+          <g id="Group_1" data-name="Group 1" transform="matrix(0.819, -0.574, 0.574, 0.819, -374.064, 6.007)">
+            <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(218 726)" clip-path="url(#clip-path)">
+              <g transform="translate(-218 -726)">
+                <circle id="Ellipse_2" data-name="Ellipse 2" cx="26" cy="26" r="26" transform="translate(218 726)" fill="#202020"/>
+              </g>
+            </g>
+            <path id="Path_2" data-name="Path 2" d="M218,752h53.328" transform="translate(0 3.295)" fill="#202020"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

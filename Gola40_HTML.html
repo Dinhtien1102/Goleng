@@ -10,26 +10,58 @@
         <header>
             <div class="main_head">
                 <div class= "left_head">
-                    <svg class= "logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 356">
-                        <g id="Group_1" data-name="Group 1" transform="translate(112 123)">
-                          <rect id="Rectangle_1" data-name="Rectangle 1" width="960" height="356" rx="178" transform="translate(-112 -123)" fill="#202020"/>
-                          <circle id="Ellipse_1" data-name="Ellipse 1" cx="162.5" cy="162.5" r="162.5" transform="translate(505 -107)" fill="rgb(255, 65, 65)"/>
-                          <text id="English" transform="translate(-68 122)" fill="#FFE53B" font-size="215" font-family="TwCenMT-Regular, Tw Cen MT"><tspan x="0" y="0">English</tspan></text>
-                          <text id="_40" data-name="40" transform="translate(529 134)" fill="#202020" font-size="252" font-family="TwCenMT-Regular, Tw Cen MT"><tspan x="0" y="0">40</tspan></text>
+                    <svg class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 215 215">
+                        <defs>
+                          <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                            <stop offset="0" stop-color="#ffc40a"/>
+                            <stop offset="1" stop-color="#ff004e"/>
+                            <stop offset="1" stop-color="#806205"/>
+                          </linearGradient>
+                          <clipPath id="clip-path">
+                            <rect width="53.87" height="29.295" fill="none"/>
+                          </clipPath>
+                        </defs>
+                        <g id="Group_5" data-name="Group 5" transform="translate(-272 -348)">
+                          <g id="Group_3" data-name="Group 3">
+                            <g id="Group_4" data-name="Group 4">
+                              <rect id="Rectangle_1" data-name="Rectangle 1" width="215" height="215" rx="23" transform="translate(272 348)" fill="#202020"/>
+                              <g id="Group_2" data-name="Group 2" transform="matrix(0.996, -0.087, 0.087, 0.996, 78.32, -29.528)">
+                                <circle id="Ellipse_1" data-name="Ellipse 1" cx="76" cy="76" r="76" transform="translate(181 425)" fill="url(#linear-gradient)"/>
+                                <path id="Path_1" data-name="Path 1" d="M329.847,468.366l-72.678,50.068,76.529,7.283s9.145-38.689-3.85-57.351" transform="translate(0 4)" fill="#202020"/>
+                                <g id="Group_1" data-name="Group 1" transform="matrix(0.819, -0.574, 0.574, 0.819, -374.064, 6.007)">
+                                  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(218 726)" clip-path="url(#clip-path)">
+                                    <g transform="translate(-218 -726)">
+                                      <circle id="Ellipse_2" data-name="Ellipse 2" cx="26" cy="26" r="26" transform="translate(218 726)" fill="#202020"/>
+                                    </g>
+                                  </g>
+                                  <path id="Path_2" data-name="Path 2" d="M218,752h53.328" transform="translate(0 3.295)" fill="#202020"/>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
                         </g>
                     </svg>
-
-                    <ul class= "menu_head">                       
+                    <ul class= "list_1">                       
                         <li><a href="">Contact us</a></li>
-                        <li><a href="">About</a></li>   
+                        <li><a href="">About</a></li> 
+                        <li><a href="">Blog</a></li>  
                         <li><a href="">Login</a></li>
-                        <li class ="shop"><a href="./Goleng_HTML.html">Shop</a></li>              
+                        <li class ="shop"><a href="">Shop</a></li>              
                     </ul> 
                 </div>      
                 <form class="search">
                     <input type="text" placeholder="Search.." name="search">
                     <button type="submit"><img src="img/search.png"></button>
                 </form>
+                <div class= "list_2" onclick="menuMobi('menu_list2')">Menu
+                    <ul id= "menu_list2">
+                        <li><a href="">Contact us</a></li>
+                        <li><a href="">About</a></li> 
+                        <li><a href="">Blog</a></li>  
+                        <li><a href="">Login</a></li>
+                        <li class ="shop"><a href="">Shop</a></li>
+                    </ul>     
+                </div>
             </div>    
         </header>
 
@@ -39,10 +71,10 @@
                 <p id="note_banner">Tips and tools for beginners and experts alike.</p>
             </div>
             <div class="main_menu">
-                <ul class="menu_content">
-                    <li class="parent_menu">
+                <ul class="list_3">
+                    <li class="parent1_menu"  onclick="menuColor(0)">
                         <a>Phát Âm</a>
-                            <ul class="sub_menu">
+                            <ul class="sub1_menu">
                                 <li onclick="content('post_0')"><a>Bảng Phiên Âm</a></li>
                                 <li onclick="content('post_1')"><a>Trọng Âm</a></li>
                                 <li onclick="content('post_2')"><a>Ngữ Điệu</a></li>
@@ -54,9 +86,9 @@
                             </ul>                     
                     </li>
                     
-                    <li class="parent_menu">
+                    <li class="parent1_menu"  onclick="menuColor(1)">
                         <a>Từ Vựng</a>
-                            <ul class="sub_menu">
+                            <ul class="sub1_menu">
                                 <li onclick="content('post_8')"><a>Chuyện Song Ngữ</a></li>
                                 <li onclick="content('post_9')"><a>2500 Từ Vựng Cơ Bản</a></li>
                                 <li onclick="content('post_10')"><a>Các Đoạn Hội Thoại</a></li>
@@ -64,9 +96,9 @@
                                 <li onclick="content('post_12')"><a>Từ Vựng Ielt</a></li>
                             </ul>
                     </li>
-                    <li class="parent_menu">
+                    <li class="parent1_menu"  onclick="menuColor(2)">
                         <a>Từ Loại</a>
-                            <ul class="sub_menu">
+                            <ul class="sub1_menu">
                                 <li onclick="content('post_13')"><a>Danh Từ_N</a></li>
                                 <li onclick="content('post_14')"><a>Động Từ_V</a></li>
                                 <li onclick="content('post_15')"><a>Tính Từ_ADJ</a></li>
@@ -75,9 +107,9 @@
                                 <li onclick="content('post_18')"><a>Bài Tập</a></li>    
                             </ul>
                     </li>   
-                    <li class="parent_menu">
+                    <li class="parent1_menu"  onclick="menuColor(3)">
                         <a>Ngữ Pháp</a>
-                            <ul class="sub_menu">
+                            <ul class="sub1_menu">
                                 <li onclick="content('post_19')"><a>Hiện Tại Đơn</a></li>
                                 <li onclick="content('post_20')"><a>Hiên Tại Tiếp Diễn</a></li>
                                 <li onclick="content('post_21')"><a>Hiện Tại Hoàn Thành</a></li>
@@ -93,57 +125,62 @@
                             </ul>
                     </li>
 
-                    <li class="parent_menu">
+                    <li class="parent1_menu"  onclick="menuColor(4)">
                         <a>Bài Tập</a>
-                            <ul class="sub_menu">
+                            <ul class="sub1_menu">
                                 <li onclick="content('post_31')"><a>Ngữ Pháp Cơ Bản & Nâng Cao</a></li>
                                 <li onclick="content('post_32')"><a>Đề Thi THPT</a></li>
                                 <li onclick="content('post_33')"><a>Luyện Tập Toeic & Ielt</a></li>                      
                             </ul>
                     </li>
-                    <li class="parent_menu">
-                        <a href="">Video</a>                      
+                    <li class="parent1_menu"  onclick="menuColor(5)">
+                        <a>Video</a>                      
                     </li>
-                    <li class="parent_menu">
-                        <a href="">Mẹo Học & Cách Học </a>                      
-                    </li>
-                    <li class="parent_menu">
-                        <a href="">Blog</a>                      
+                    <li class="parent1_menu"  onclick="menuColor(6)">
+                        <a>Mẹo Học & Cách Học </a>                      
                     </li>
                 </ul>
+            </div>
+            <div class="menu_mobi" onclick="menuMobi('list_4')">
+                Lâlalallaalalal
+                <ul id="list_4">
+                    <li class="parent2_menu"><a href="">Phát Âm</a></li>
+                    <li class="parent2_menu"><a href="">Từ Vựng</a></li>
+                    <li class="parent2_menu"><a href="">Từ Loại</a></li>
+                    <li class="parent2_menu"><a href="">Ngữ Pháp</a></li>
+                    <li class="parent2_menu"><a href="">Bài Tập</a></li>
+                    <li class="parent2_menu"><a href="">Video</a></li>
+                    <li class="parent2_menu"><a href="">Mẹo Học & Cách Học</a></li>
+                </ul>
+                <img class="add" src="img/add.svg">
             </div>
         </section>
 
         <div class="content">
             <div id="left_content">
                 <ul class="list_content">
-                    <li><a href="">D/S Bảng Phiên Âm</a></li>
-                    <li><a href="">Danh Sách Ngữ Pháp</a></li>
-                    <li><a href="">D/S Hiện Tại Đơn</a></li>
-                    <li><a href="">D/S Đề Thi THPT</a></li>
-                    <li><a href="">D/S Danh Từ</a></li>
+                    <li><a  onclick= "menuContent(0)">D/S Bảng Phiên Âm</a></li>
+                    <li><a  onclick= "menuContent(1)">Danh Sách Ngữ Pháp</a></li>
+                    <li><a  onclick= "menuContent(2)">D/S Hiện Tại Đơn</a></li>
+                    <li><a  onclick= "menuContent(3)">D/S Đề Thi THPT</a></li>
+                    <li><a  onclick= "menuContent(4)">D/S Danh Từ</a></li>
                 </ul>
             </div>
             
             <div id="main_content">
+               
                 <p>
                     Ngữ pháp hay văn phạm là quy tắc chủ yếu trong cấu trúc ngôn ngữ. Việc tạo ra các quy tắc chính cho một ngôn ngữ riêng biệt là ngữ pháp của ngôn ngữ đó, vì vậy mỗi ngôn ngữ có một ngữ pháp riêng biệt của nó. Ngữ pháp là một phần trong nghiên cứu ngôn ngữ hay còn gọi là ngôn ngữ học. Ngữ pháp là một cách thức để hiểu về ngôn ngữ. mặt khác, ngữ pháp còn là một công cụ để quản lý từ ngữ, làm cho từ ngữ từ một từ hay nhiều từ thành một câu đúng ý nghĩa và thực sự hữu ích.
 
-                    Ngữ pháp, theo cách hiểu của hầu hết các nhà ngôn ngữ học hiện đại bao gồm ngữ âm, âm học, hình thái ngôn ngữ, cú pháp, ngữ nghĩa. Tuy nhiên, theo truyền thống, ngữ pháp chỉ bao gồm hình thái ngôn ngữ và cú pháp.Câu 1: - Danh từ: lần, lăng, làng - Động từ: đọc, nghĩ ngợi, phục dịch, đập - Tính từ: hay, đột ngột, phải, sung sướng
+                    Ngữ pháp, theo cách hiểu của hầu hết các nhà ngôn ngữ học hiện đại bao gồm ngữ âm, âm học, hình thái ngôn ngữ, cú pháp, ngữ nghĩa. Tuy nhiên, theo truyền thống, ngữ pháp chỉ bao gồm hình thái ngôn ngữ và cú pháp.Câu 1: - Danh từ: lần, lăng, làng - Động từ: đọc, nghĩ ngợi, phục dịch, đập - Tính từ: hay, đột ngột, phải, sung sướn
                     
-                    
-                    Câu 2: - Các từ nhóm (a) là các từ chỉ lượng, nó có thể kết hợp với các danh từ: những lần, những làng,... - Các từ nhóm (b) là các phó từ có thể kết hợp với các động từ: hãy đọc, hãy đập,... - Các từ nhóm (c) là các phó từ có thể kết hợp với các tính từ: rất hay, rất đột ngột,...
-                    
-                    
+                    Câu 2: - Các từ nhóm (a) là các từ chỉ lượng, nó có thể kết hợp với các danh từ: những lần, những làng,... - Các từ nhóm (b) là các phó từ có thể kết hợp với các động từ: hãy đọc, hãy đập,... - Các từ nhóm (c) là các phó từ có thể kết hợp với các tính từ: rất hay, rất đột ngột,... 
                     Câu 3: - Danh từ có thể đứng sau: những, các, một,... - Động từ có thể đứng sau: hãy, đã, vừa,... - Tính từ có thể đứng sau: rất, hơi, quá,...
                     Ngữ pháp hay văn phạm là quy tắc chủ yếu trong cấu trúc ngôn ngữ. Việc tạo ra các quy tắc chính cho một ngôn ngữ riêng biệt là ngữ pháp của ngôn ngữ đó, vì vậy mỗi ngôn ngữ có một ngữ pháp riêng biệt của nó. Ngữ pháp là một phần trong nghiên cứu ngôn ngữ hay còn gọi là ngôn ngữ học. Ngữ pháp là một cách thức để hiểu về ngôn ngữ. mặt khác, ngữ pháp còn là một công cụ để quản lý từ ngữ, làm cho từ ngữ từ một từ hay nhiều từ thành một câu đúng ý nghĩa và thực sự hữu ích.
 
                     Ngữ pháp, theo cách hiểu của hầu hết các nhà ngôn ngữ học hiện đại bao gồm ngữ âm, âm học, hình thái ngôn ngữ, cú pháp, ngữ nghĩa. Tuy nhiên, theo truyền thống, ngữ pháp chỉ bao gồm hình thái ngôn ngữ và cú pháp.Câu 1: - Danh từ: lần, lăng, làng - Động từ: đọc, nghĩ ngợi, phục dịch, đập - Tính từ: hay, đột ngột, phải, sung sướng
                     
-                    
                     Câu 2: - Các từ nhóm (a) là các từ chỉ lượng, nó có thể kết hợp với các danh từ: những lần, những làng,... - Các từ nhóm (b) là các phó từ có thể kết hợp với các động từ: hãy đọc, hãy đập,... - Các từ nhóm (c) là các phó từ có thể kết hợp với các tính từ: rất hay, rất đột ngột,...
-                    
-                    
                     Câu 3: - Danh từ có thể đứng sau: những, các, một,... - Động từ có thể đứng sau: hãy, đã, vừa,... - Tính từ có thể đứng sau: rất, hơi, quá,...
                     Ngữ pháp hay văn phạm là quy tắc chủ yếu trong cấu trúc ngôn ngữ. Việc tạo ra các quy tắc chính cho một ngôn ngữ riêng biệt là ngữ pháp của ngôn ngữ đó, vì vậy mỗi ngôn ngữ có một ngữ pháp riêng biệt của nó. Ngữ pháp là một phần trong nghiên cứu ngôn ngữ hay còn gọi là ngôn ngữ học. Ngữ pháp là một cách thức để hiểu về ngôn ngữ. mặt khác, ngữ pháp còn là một công cụ để quản lý từ ngữ, làm cho từ ngữ từ một từ hay nhiều từ thành một câu đúng ý nghĩa và thực sự hữu ích.
 
@@ -164,7 +201,9 @@
 
             </div>
         </div>
-        
+        <div class="btn-grad">
+
+            </div>
         <footer>
             <div class="content_footer">
                 <div class="link">
@@ -186,6 +225,7 @@
                 <p>Copyright ©2017-2019 Goleng. All rights reserved.</p>
             </div>
         </footer>
+       
 <!-- Thực RA cHỈ cẦN mỤC lỤC lÀ đỦ rỒi -->
     </body>
     <script src="dataGola40.js"></script>
