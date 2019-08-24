@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="215" height="215" viewBox="0 0 215 215">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.463" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4cf941"/>
+      <stop offset="1" stop-color="#267d21"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect width="53.87" height="29.295" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_16" data-name="Group 16" transform="translate(-693 -395)">
+    <g id="Group_12" data-name="Group 12">
+      <g id="Group_11" data-name="Group 11">
+        <g id="Group_10" data-name="Group 10">
+          <g id="Group_9" data-name="Group 9">
+            <g id="Group_8" data-name="Group 8" transform="translate(399 18)">
+              <g id="Group_7" data-name="Group 7" transform="translate(22 29)">
+                <g id="Group_6" data-name="Group 6">
+                  <g id="Group_5" data-name="Group 5">
+                    <g id="Group_3" data-name="Group 3">
+                      <g id="Group_4" data-name="Group 4">
+                        <g id="Group_15" data-name="Group 15">
+                          <g id="Group_14" data-name="Group 14">
+                            <g id="Group_13" data-name="Group 13">
+                              <g id="Path_3" data-name="Path 3" transform="translate(272 348)" fill="url(#linear-gradient)">
+                                <path d="M23,0H192a23,23,0,0,1,23,23V192a23,23,0,0,1-23,23H23A23,23,0,0,1,0,192V23A23,23,0,0,1,23,0Z" stroke="none"/>
+                                <path d="M 23 10 C 15.83177185058594 10 10 15.83177185058594 10 23 L 10 192 C 10 199.1682281494141 15.83177185058594 205 23 205 L 192 205 C 199.1682281494141 205 205 199.1682281494141 205 192 L 205 23 C 205 15.83177185058594 199.1682281494141 10 192 10 L 23 10 M 23 0 L 192 0 C 204.7025451660156 0 215 10.29745483398438 215 23 L 215 192 C 215 204.7025451660156 204.7025451660156 215 192 215 L 23 215 C 10.29745483398438 215 0 204.7025451660156 0 192 L 0 23 C 0 10.29745483398438 10.29745483398438 0 23 0 Z" stroke="none" fill="rgba(28,35,27,0.2)"/>
+                              </g>
+                              <g id="Group_2" data-name="Group 2" transform="matrix(0.996, -0.087, 0.087, 0.996, 81.32, -18.528)">
+                                <path id="Path_4" data-name="Path 4" d="M80,0c44.185,0,80,35.357,80,78.971s-35.819,78.971-80,78.971S0,122.586,0,78.971,35.819,0,80,0Z" transform="translate(171.474 419.147)" fill="#fff"/>
+                                <path id="Path_1" data-name="Path 1" d="M69.413,0,0,47.9l73.09,6.968S81.824,17.855,69.413,0" transform="translate(264.742 468.888) rotate(16)" fill="#0ab421"/>
+                                <g id="Group_1" data-name="Group 1" transform="matrix(0.951, -0.309, 0.309, 0.951, 224.084, 462.366)">
+                                  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(0 0)" clip-path="url(#clip-path)">
+                                    <g transform="translate(-218 -726)">
+                                      <circle id="Ellipse_2" data-name="Ellipse 2" cx="26" cy="26" r="26" transform="translate(218 726)" fill="#0cad48"/>
+                                    </g>
+                                  </g>
+                                  <path id="Path_2" data-name="Path 2" d="M0,0H53.328" transform="translate(0 29.295)" fill="#0cad48"/>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
